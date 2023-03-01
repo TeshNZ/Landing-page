@@ -19,7 +19,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 25px;
+  margin-top: auto;
 }
 
 .logo {
@@ -69,7 +70,7 @@ button.signup {
 .container-title {
   color: #f9faf8;
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .container-text {
@@ -95,12 +96,27 @@ button.signup {
 
 .container-2 {
   display: flex;
-  justify-content: center;
   padding: 40px;
+  justify-content: center;
 }
 
 .container2-title {
   font-size: 36px;
-  font-weight: bolder;
+  font-weight: bold;
   color: #1f2937;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-info {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  border: 5px;
+  border-style: solid;
+  border-color: #3882f6;
+  border-radius: 20px;
+  display: flex;
 }
